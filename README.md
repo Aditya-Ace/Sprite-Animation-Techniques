@@ -7,8 +7,8 @@ This project is a simple JavaScript animation that displays different states of 
 1. Clone the repository and open `index.html` in your browser.
 2. Ensure the project structure includes:
    - `assets/`: Contains `shadow_dog.png`.
-   - `js/AnimationStates.js`: Contains animation states data.
-   - `js/main.js`: Contains the animation logic.
+   - `AnimationStates.ts`: Contains animation states data.
+   - `main.ts`: Contains the animation logic.
    - `index.html`: Contains the canvas and dropdown menu.
 
 ## Summary
