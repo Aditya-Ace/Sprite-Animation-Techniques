@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Sprite Animation Techniques</title>
+  </head>
+  <body>
+    <div class="controls">
+      <h1>Sprite Animation Techniques</h1>
+      <div>
+        <label for="animations">Choose Animation:</label>
+        <select id="animations" name="animations">
+          <option value="Idle">Idle</option>
+          <option value="Jump">Jump</option>
+          <option value="Run">Run</option>
+          <option value="Fall">Fall</option>
+          <option value="Confused">Confused</option>
+          <option value="Sit">Sit</option>
+          <option value="Roll">Roll</option>
+          <option value="Bite">Bite</option>
+          <option value="KO">KO</option>
+          <option value="GetHit">Get Hit</option>
+        </select>
+      </div>
+    </div>
+    <div class="container">
+      <canvas id="canvas"></canvas>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
